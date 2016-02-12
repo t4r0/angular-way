@@ -1,7 +1,7 @@
 {
   "name": "angular-way",
   "description": "This is the angular way",
-  "main": "index.js",
+  "main": ["foundation-sites/dist/foundation.css"],
   "authors": [
     "Estuardo Diaz <esjoando555@gmail.com>"
   ],

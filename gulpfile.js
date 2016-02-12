@@ -1,7 +1,6 @@
 var batch       =   require('batch-stream2');
 var gulp        =   require('gulp');
 var livereload  =   require('gulp-livereload');
-var stylus      =   require('gulp-stylus');
 var watch       =   require('gulp-watch');
 var server      =   require('gulp-webserver');
 var wiredep     =   require('gulp-wiredep');
@@ -24,13 +23,6 @@ var dist = {
 
 src.styles = src.stylus.concat(src.css);
 
-function buildStyles() {
-  return gulp.src(src.styles)
-    .pipe(stylus({use: ['nib']}))
-    .pipe(concat('app.css'))
-    .pipe(gulp.dest(dist.css));
-}
-
 gulp.task('serve', function(){
   gulp.src('./app')
     .pipe(server({
@@ -39,15 +31,8 @@ gulp.task('serve', function(){
     }));
 });
 
-gulp.task('stylus',function(){
-  gulp.src('./app/**/*.styl')
-    .pipe(stylus({use:['nib']}))
-    .pipe(gulp.dest('.tmp/'));
-});
-
 gulp.task('watch', function(){
   livereload.listen();
-  gulp.watch(src.styles, buildStyles);
 });
 
 gulp.task('wiredep', function(){
@@ -57,9 +42,8 @@ gulp.task('wiredep', function(){
     }))
     .pipe(gulp.dest('app'));
 });
- 
+
 gulp.task('default', [
-    'stylus',
     'wiredep',
     'serve',
     'watch'
