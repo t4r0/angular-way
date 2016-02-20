@@ -17,7 +17,7 @@ var lr;
 var styles = 'app/styles/**/*.styl';
 
 var paths = {
-  tmp : './.tmp/',
+  tmp : 'app/.tmp/',
   src : 'app/'
 };
 
@@ -41,13 +41,13 @@ gulp.task('stylus', function(){
   gulp.src(styles)
     .pipe(stylus({ use: nib(), compress: true}))
     .pipe(concat('main.css'))
-    .pipe(gulp.dest('.tmp/styles'));
+    .pipe(gulp.dest('app/.tmp/styles'));
 });
 
 
 gulp.task('watch', function(){
   gulp.watch(styles, ['stylus']);
-  gulp.watch(paths.src + '[scripts|styles|images]/*', ['wiredep'])
+  gulp.watch(paths.src + '[scripts|styles|images|partials]/*', ['wiredep'])
 });
 
 gulp.task('wiredep', function(){

@@ -1,0 +1,883 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"mat",
+				"margin-top"
+			],
+			[
+				"back",
+				"background-repeat"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"fotn",
+				"font-size"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"borde",
+				"border-width"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"margi-",
+				"margin-left"
+			],
+			[
+				"padi",
+				"padding"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"al",
+				"text-align"
+			],
+			[
+				"border",
+				"border-color"
+			],
+			[
+				"paddi",
+				"padding-top"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"bu",
+				"button	Tag"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"ma",
+				"margin-top"
+			],
+			[
+				"BACK",
+				"background-color"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"sa",
+				"sans-serif"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"border-co",
+				"border-color"
+			],
+			[
+				"f",
+				"font-family"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"bor",
+				"border-top"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"bo",
+				"border-bottom"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"siz",
+				"background-size"
+			],
+			[
+				"se",
+				"section	Tag"
+			],
+			[
+				"backgr",
+				"background-image"
+			],
+			[
+				"nu",
+				"numeroB	label"
+			],
+			[
+				"num",
+				"numeroA	label"
+			],
+			[
+				"pr",
+				"procedimiento	label"
+			],
+			[
+				"menu",
+				"menu_class"
+			],
+			[
+				"them",
+				"themg_hero_shortcode"
+			],
+			[
+				"but",
+				"button_link"
+			],
+			[
+				"b",
+				"button_link"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"local",
+				"localhost"
+			],
+			[
+				"data",
+				"dataFormulario"
+			],
+			[
+				"da",
+				"dataFormulario"
+			],
+			[
+				"lead",
+				"lead_id"
+			],
+			[
+				"camp",
+				"camposDetalle"
+			],
+			[
+				"date_cre",
+				"date_created"
+			],
+			[
+				"th",
+				"th	Tag"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"jso",
+				"json_decode"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/partials/directives/cake-gallery.html",
+			"settings":
+			{
+				"buffer_size": 222,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/styles/cake.styl",
+			"settings":
+			{
+				"buffer_size": 186,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/partials/directives/cake-card.html",
+			"settings":
+			{
+				"buffer_size": 339,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/styles/main.styl",
+			"settings":
+			{
+				"buffer_size": 14,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "gulpfile.js",
+			"settings":
+			{
+				"buffer_size": 1759,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 157.0,
+		"last_filter": "insta",
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"nas",
+				"Set Syntax: Assembly x86 (NASM)"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 549.0
+	},
+	"console":
+	{
+		"height": 218.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Karen/Documents/angular-way",
+		"/C/Users/Karen/Documents/angular-way/app",
+		"/C/Users/Karen/Documents/angular-way/app/partials",
+		"/C/Users/Karen/Documents/angular-way/app/partials/directives"
+	],
+	"file_history":
+	[
+		"/C/Users/Karen/Documents/angular-way/gulpfile.js",
+		"/C/Users/Karen/Documents/angular-way/app/partials/footer.html",
+		"/C/Users/Karen/Documents/angular-way/app/scripts/controllers/cakeCard.js",
+		"/C/Users/Karen/Documents/angular-way/app/scripts/controllers/cakeGallery.js",
+		"/C/Users/Karen/Documents/angular-way/app/scripts/directives/cakeCard.js",
+		"/C/Users/Karen/Documents/angular-way/app/partials/directives/cake-card.html",
+		"/C/Users/Karen/Documents/angular-way/app/index.html",
+		"/C/Users/Karen/Documents/angular-way/app/partials/header.html",
+		"/C/Users/Karen/Documents/angular-way/app/scripts/app.js",
+		"/C/Users/Karen/Documents/angular-way/app/partials/directives/cake-gallery.html",
+		"/C/Users/Karen/Documents/angular-way/app/scripts/directives/cakeGallery.js",
+		"/C/Users/Karen/Documents/angular-way/app/scripts/directives/cakeCard",
+		"/C/users/karen/appdata/local/temp/sublime-sftp-browse-1455893701/HowlerTravel/wsb7807809001/wp-content/themes/howler-travel/templates/footer.php",
+		"/C/Users/Karen/AppData/Local/Temp/fz3temp-1/footer.php",
+		"/C/Users/Karen/Documents/VAMPS NYC",
+		"/C/Users/Karen/AppData/Local/Temp/fz3temp-1/license.txt",
+		"/C/Users/Karen/Documents/XW_2016/Maxwells_Bakery/header.php",
+		"/C/Users/Karen/AppData/Local/Temp/fz3temp-1/header.php",
+		"/C/Users/Karen/Documents/XW_2016/Maxwells_Bakery/framework/woocommerce/index.php",
+		"/C/Users/Karen/Documents/XW_2016/Maxwells_Bakery/woocommerce/loop/add-to-cart.php",
+		"/C/Users/Karen/Documents/XW_2016/Maxwells_Bakery/woocommerce/archive-product.php",
+		"/C/Users/Karen/AppData/Local/Temp/fz3temp-1/add-to-cart.php",
+		"/C/Users/Karen/AppData/Local/Temp/fz3temp-1/taxonomy-product_cat.php",
+		"/C/Users/Karen/AppData/Local/Temp/fz3temp-1/content-single-product.php",
+		"/C/Users/Karen/AppData/Local/Temp/fz3temp-1/content-product_cat 2.php",
+		"/C/Users/Karen/AppData/Local/Temp/fz3temp-1/archive-product.php",
+		"/C/Users/Karen/AppData/Local/Temp/fz3temp-1/title.php",
+		"/C/Users/Karen/AppData/Local/Temp/fz3temp-1/product-image.php",
+		"/C/Users/Karen/AppData/Local/Temp/fz3temp-1/price.php",
+		"/C/Users/Karen/AppData/Local/Temp/fz3temp-1/simple.php",
+		"/C/Users/Karen/AppData/Local/Temp/fz3temp-1/woocommerce.php",
+		"/C/Users/Karen/AppData/Local/Temp/fz3temp-1/content-widget-product.php",
+		"/C/Users/Karen/AppData/Local/Temp/fz3temp-1/single-product.php",
+		"/C/Users/Karen/AppData/Local/Temp/fz3temp-1/content-product_cat.php",
+		"/C/Users/Karen/AppData/Local/Temp/fz3temp-1/content-product.php",
+		"/C/Users/Karen/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/users/karen/appdata/local/temp/sublime-sftp-browse-1455292791/OrthoHC/wp-content/themes/OrthoHC/assets/css/main.min.css",
+		"/C/Users/Karen/Desktop/home-btn.css",
+		"/C/users/karen/appdata/local/temp/sublime-sftp-browse-1455314518/OrthoHC/wp-content/themes/OrthoHC/templates/head.php",
+		"/C/users/karen/appdata/local/temp/sublime-sftp-browse-1455314480/OrthoHC/wp-content/themes/OrthoHC/templates/footer.php",
+		"/C/Users/Karen/AppData/Local/Temp/582d0fa6-d793-4d96-abb8-d0e121afe6ad/wsb7807809001/.htaccess",
+		"/C/Users/Karen/AppData/Local/Temp/582d0fa6-d793-4d96-abb8-d0e121afe6ad/logs/.htaccess",
+		"/C/Users/Karen/AppData/Local/Temp/582d0fa6-d793-4d96-abb8-d0e121afe6ad/logs/access.log.06.6",
+		"/C/Users/Karen/Desktop/sliders.css",
+		"/C/users/karen/appdata/local/temp/sublime-sftp-browse-1455222901/OrthoHC/wp-content/themes/OrthoHC/assets/css/main.min.css",
+		"/C/users/karen/appdata/local/temp/sublime-sftp-browse-1454969500/OrthoHC/wp-content/themes/OrthoHC/assets/css/main.min.css",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/users/karen/appdata/local/temp/sublime-sftp-browse-1454948328/OrthoHC/wp-content/themes/OrthoHC/assets/css/main.min.css",
+		"/C/users/karen/appdata/local/temp/sublime-sftp-browse-1454948638/OrthoHC/wp-content/themes/OrthoHC/templates/footer.php",
+		"/C/users/karen/appdata/local/temp/sublime-sftp-browse-1454948620/OrthoHC/wp-content/themes/OrthoHC/templates/head.php",
+		"/C/users/karen/appdata/local/temp/sublime-sftp-browse-1454948348/OrthoHC/wp-content/themes/OrthoHC/templates/head.php",
+		"/C/users/karen/appdata/local/temp/sublime-sftp-browse-1454897177/OrthoHC/wp-content/themes/OrthoHC/assets/css/main.min.css",
+		"/C/users/karen/appdata/local/temp/sublime-sftp-browse-1454900256/OrthoHC/wp-content/themes/OrthoHC/templates/head.php",
+		"/C/users/karen/appdata/local/temp/sublime-sftp-browse-1454819487/OrthoHC/wp-content/themes/OrthoHC/templates/head.php",
+		"/C/users/karen/appdata/local/temp/sublime-sftp-browse-1454819986/OrthoHC/wp-content/themes/OrthoHC/assets/css/main.min.css",
+		"/C/users/karen/appdata/local/temp/sublime-sftp-browse-1454816525/OrthoHC/wp-content/themes/OrthoHC/assets/css/main.min.css",
+		"/C/Users/Karen/Documents/Esperanza/aviesperanza.sql",
+		"/C/users/karen/appdata/local/temp/sublime-sftp-browse-1454462412/OrthoHC/wp-content/themes/OrthoHC/assets/css/main.min.css",
+		"/C/users/karen/appdata/local/temp/sublime-sftp-browse-1454462098/OrthoHC/wp-content/themes/OrthoHC/templates/head.php",
+		"/C/users/karen/appdata/local/temp/sublime-sftp-browse-1454462321/OrthoHC/wp-content/themes/OrthoHC/templates/footer.php",
+		"/C/users/karen/appdata/local/temp/sublime-sftp-browse-1454079046/OrthoHC/wp-content/themes/OrthoHC/assets/css/main.min.css",
+		"/C/users/karen/appdata/local/temp/sublime-sftp-browse-1453931057/OrthoHC/wp-content/themes/OrthoHC/assets/css/main.min.css",
+		"/C/Users/Karen/Downloads/hosts",
+		"/C/users/karen/appdata/local/temp/sublime-sftp-browse-1453819762/OrthoHC/wp-content/themes/OrthoHC/assets/css/main.min.css",
+		"/C/users/karen/appdata/local/temp/sublime-sftp-browse-1453738812/OrthoHC/wp-content/themes/OrthoHC/templates/head.php",
+		"/C/users/karen/appdata/local/temp/sublime-sftp-browse-1453221649/OrthoHC/wp-content/themes/OrthoHC/assets/css/main.min.css",
+		"/C/users/karen/appdata/local/temp/sublime-sftp-browse-1453246011/HowlerTravel/index.html",
+		"/C/users/karen/appdata/local/temp/sublime-sftp-browse-1452903424/OrthoHC/wp-content/themes/OrthoHCLandinPages/templates/head.php",
+		"/C/users/karen/appdata/local/temp/sublime-sftp-browse-1452903344/OrthoHC/wp-content/themes/OrthoHC/templates/head.php",
+		"/C/users/karen/appdata/local/temp/sublime-sftp-browse-1452901284/OrthoHC/wp-content/themes/OrthoHCLandinPages/templates/head.php",
+		"/C/users/karen/appdata/local/temp/sublime-sftp-browse-1452901118/OrthoHC/wp-content/themes/OrthoHC/templates/head.php",
+		"/C/users/karen/appdata/local/temp/sublime-sftp-browse-1452877178/OrthoHC/wp-content/themes/OrthoHC/assets/css/main.min.css",
+		"/C/Users/Karen/Downloads/main.min.css",
+		"/C/Users/Karen/AppData/Local/Temp/fz3temp-1/main.min 2.css",
+		"/C/Users/Karen/AppData/Local/Temp/fz3temp-1/vc_infographic_pediatrics.php",
+		"/C/Users/Karen/AppData/Local/Temp/fz3temp-1/vc_infographic_withball.php",
+		"/C/Users/Karen/AppData/Local/Temp/fz3temp-1/head.php",
+		"/C/Users/Karen/Downloads/headLP.php",
+		"/C/Users/Karen/AppData/Local/Temp/fz3temp-1/main.min.css",
+		"/C/Users/Karen/Downloads/vc_blocks/vc_infographic_pediatrics.php",
+		"/C/Users/Karen/AppData/Local/Temp/fz3temp-1/vc_infographic_swimmer.php",
+		"/C/Users/Karen/Downloads/vc_blocks/vc_infographic_swimmer.php",
+		"/C/Users/Karen/AppData/Local/Temp/fz3temp-1/vc_infographic_basquetball.php",
+		"/C/users/karen/appdata/local/temp/sublime-sftp-browse-1452708943/OrthoHC/wp-content/themes/OrthoHC/assets/css/main.min.css",
+		"/C/users/karen/appdata/local/temp/sublime-sftp-browse-1452624046/OrthoHC/wp-content/themes/OrthoHC/assets/css/main.min.css",
+		"/C/users/karen/appdata/local/temp/sublime-sftp-browse-1452624167/OrthoHC/wp-content/themes/OrthoHC/vc_blocks/vc_infographic_pediatrics.php",
+		"/C/Users/Karen/AppData/Roaming/Sublime Text 3/Packages/User/sftp_servers/HowlerTravel",
+		"/C/users/karen/appdata/local/temp/sublime-sftp-browse-1452532718/OrthoHC/wp-content/themes/OrthoHC/assets/css/main.min.css",
+		"/C/users/karen/appdata/local/temp/sublime-sftp-browse-1452616199/OrthoHC/.user.ini",
+		"/C/Users/Karen/AppData/Roaming/Sublime Text 3/Packages/User/sftp_servers/GuatemalasTours",
+		"/C/users/karen/appdata/local/temp/sublime-sftp-browse-1452449554/OrthoHC/wp-content/themes/OrthoHC/assets/css/main.min.css",
+		"/C/users/karen/appdata/local/temp/sublime-sftp-browse-1452371511/OrthoHC/wp-content/themes/OrthoHC/vc_blocks/vc_infographic_basquetball.php",
+		"/C/users/karen/appdata/local/temp/sublime-sftp-browse-1452371540/OrthoHC/wp-content/themes/OrthoHC/vc_blocks/vc_infographic_withball.php",
+		"/C/users/karen/appdata/local/temp/sublime-sftp-browse-1452449533/OrthoHC/wp-content/themes/OrthoHC/assets/css/main.min.css",
+		"/C/users/karen/appdata/local/temp/sublime-sftp-browse-1452361053/OrthoHC/wp-content/themes/OrthoHC/assets/css/main.min.css",
+		"/C/users/karen/appdata/local/temp/sublime-sftp-browse-1452370113/OrthoHC/wp-content/themes/OrthoHC/vc_blocks/vc_infographic_swimmer.php",
+		"/C/users/karen/appdata/local/temp/sublime-sftp-browse-1452370084/OrthoHC/wp-content/themes/OrthoHC/vc_blocks/vc_infographic_withball.php",
+		"/C/users/karen/appdata/local/temp/sublime-sftp-browse-1452363088/OrthoHC/wp-content/themes/OrthoHC/vc_blocks/vc_infographic_pediatrics.php",
+		"/C/users/karen/appdata/local/temp/sublime-sftp-browse-1452368006/OrthoHC/wp-content/themes/OrthoHC/vc_blocks/vc_infographic_swimmer.php",
+		"/C/Users/Karen/AppData/Local/Temp/5aed8d8a-035a-42b7-b26d-75655f6fd1e7/wp-content/themes/OrthoHC/vc_blocks/vc_infographic_swimmer.php",
+		"/C/Users/Karen/Downloads/vc_infographic_pediatrics.php",
+		"/C/Users/Karen/AppData/Local/Temp/5aed8d8a-035a-42b7-b26d-75655f6fd1e7/wp-content/themes/OrthoHC/vc_blocks/vc_infographic_pediatrics.php",
+		"/C/Users/Karen/AppData/Local/Temp/fz3temp-1/editor-style.css",
+		"/C/Users/Karen/AppData/Local/Temp/fz3temp-1/style.css",
+		"/C/Users/Karen/AppData/Local/Temp/fz3temp-1/sidebar.php",
+		"/C/Users/Karen/AppData/Local/Temp/fz3temp-1/template-servicios.php",
+		"/C/Users/Karen/AppData/Local/Temp/fz3temp-1/template-servicios-interno.php",
+		"/C/Users/Karen/AppData/Local/Temp/fz3temp-1/template-inicio.php",
+		"/C/Users/Karen/AppData/Local/Temp/fz3temp-1/sidebar-page.php",
+		"/C/Users/Karen/AppData/Local/Temp/fz3temp-2/vc_infographic_basquetball.php",
+		"/C/Users/Karen/AppData/Local/Temp/fz3temp-2/main.min.css",
+		"/C/Users/Karen/AppData/Local/Temp/fz3temp-2/vc_infographic_withball.php",
+		"/C/Users/Karen/AppData/Local/Temp/fz3temp-2/main.min 2.css",
+		"/C/Users/Karen/AppData/Local/Temp/fz3temp-2/vc_infographic_swimmer.php",
+		"/C/Users/Karen/AppData/Local/Temp/fz3temp-2/vc_infographic_pediatrics.php",
+		"/C/Users/Karen/AppData/Local/Temp/fz3temp-2/colorbox.js",
+		"/C/users/karen/appdata/local/temp/sublime-sftp-browse-1450821262/OrthoHC/wp-content/themes/OrthoHC/assets/css/main.min.css",
+		"/C/users/karen/appdata/local/temp/sublime-sftp-browse-1450811027/OrthoHC/wp-content/themes/OrthoHC/vc_blocks/vc_infographic_withball.php",
+		"/C/users/karen/appdata/local/temp/sublime-sftp-browse-1450811006/OrthoHC/wp-content/themes/OrthoHC/vc_blocks/vc_infographic_pediatrics.php",
+		"/C/users/karen/appdata/local/temp/sublime-sftp-browse-1450810989/OrthoHC/wp-content/themes/OrthoHC/vc_blocks/vc_infographic_basquetball.php",
+		"/C/users/karen/appdata/local/temp/sublime-sftp-browse-1450811014/OrthoHC/wp-content/themes/OrthoHC/vc_blocks/vc_infographic_swimmer.php",
+		"/C/users/karen/appdata/local/temp/sublime-sftp-browse-1450808738/OrthoHC/wp-content/themes/OrthoHC/assets/css/main.min.css",
+		"/C/Users/Karen/Desktop/vc_blocks/vc_infographic_swimmer.php",
+		"/C/Users/Karen/AppData/Local/Temp/fz3temp-2/_main.js",
+		"/C/Users/Karen/AppData/Local/Temp/fz3temp-2/_main 2.js",
+		"/C/users/karen/appdata/local/temp/sublime-sftp-browse-1450804650/OrthoHC/wp-content/themes/OrthoHCLandinPages/vc_blocks/vc_infographic_pediatrics.php",
+		"/C/users/karen/appdata/local/temp/sublime-sftp-browse-1450799472/OrthoHC/wp-content/themes/OrthoHC/assets/css/main.min.css",
+		"/C/users/karen/appdata/local/temp/sublime-sftp-browse-1450797203/OrthoHC/wp-content/themes/OrthoHC/vc_blocks/vc_infographic_basquetball.php"
+	],
+	"find":
+	{
+		"height": 48.0
+	},
+	"find_in_files":
+	{
+		"height": 135.0,
+		"where_history":
+		[
+			"C:\\Users\\Karen\\Documents\\XW_2016\\Maxwells_Bakery",
+			"C:\\Users\\Karen\\Documents\\XW_2016\\Maxwells_Bakery\\framework\\woocommerce",
+			"C:\\Users\\Karen\\Documents\\XW_2016\\Maxwells_Bakery\\woocommerce",
+			"<current file>",
+			"<li> Uno </li>",
+			"<current file>"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Maxwell's Bakery All Rights Reserved.",
+			"Copyright © 2014 Mrs. Maxwell's Bakery All Rights Reserved.",
+			"half",
+			"Macallan Marketing",
+			"Copyright © 2014 Mrs. Maxwell's Bakery All Rights Reserved.",
+			"Copyright",
+			"SEE YOUR OPTIONS",
+			"details",
+			"see",
+			"see ",
+			"see",
+			"see ",
+			".btn",
+			".rev-",
+			"slide-10-layer-9",
+			"slide-10-layer-5",
+			"@media (max-width: ",
+			"@media (min-width: ",
+			"@media (min-width: 4",
+			"cta-headl",
+			".rev-btn",
+			"cta-hea",
+			".prefooter .social-media i",
+			".btn-more button",
+			".btn-more button, .btn-more a",
+			".meet-doctors-mobile .doctors-description p",
+			".prefooter .button-requestappointment",
+			"@media",
+			"btn-cta-red",
+			"btn-cta",
+			"btn-cta-red",
+			"cta-h",
+			"BTn-cta",
+			"BTn",
+			"cta-b",
+			"cta-",
+			"focus",
+			"cta-bottom",
+			"@media",
+			"button-requestappointment",
+			"main-su",
+			"btn-request",
+			"@media (",
+			"button-requestappointment",
+			"#requestappointment",
+			"infogra",
+			"#requestappointment",
+			"requestappointment",
+			"@media",
+			"bigd",
+			"@media (max-width:",
+			"@media (min-width:",
+			"@media (min-width: ",
+			"@media (min-width: 1024px",
+			"fashi",
+			"@",
+			"Fashio",
+			"landingpages",
+			"header-landingpages",
+			"infographic-content",
+			"content",
+			"infographics-content",
+			"@",
+			"@media",
+			"@@media",
+			"ped",
+			"content",
+			"aspect",
+			"btn",
+			"fashion",
+			"compren",
+			"compre",
+			"comprenhensive-bone-joint",
+			"compren",
+			"border-radi",
+			"aspec",
+			"infogra",
+			"infographic-c",
+			"pediatr",
+			"sideba",
+			"content l",
+			"li ",
+			"swimmer",
+			"@media",
+			"margin-left",
+			"Conditions we treat:",
+			"h2",
+			"li",
+			"infographic-co",
+			"content",
+			"page-id",
+			"http://staging.orthohc.com/wp-content/themes/OrthoHC/assets/img/orthohc-bkg.jpg",
+			"page-id",
+			"page",
+			"</a>",
+			"<a href=\"#\">",
+			"page-id-672",
+			"<a href=\"#\"> Uno </a>",
+			"hc-title",
+			"page-id",
+			"672",
+			"baske",
+			"blue",
+			"girl with ball",
+			"pediatrics",
+			"aspects",
+			"<ul>\n                      <li>Uno</li>\n                      <li>Uno</li>\n                      <li>Uno</li>\n                      <li>Uno</li>\n                      <li>Uno</li>\n                    </ul>",
+			"click",
+			"paddi",
+			"our meth",
+			"menu",
+			"rax",
+			"left",
+			"allowoverride",
+			"order",
+			"json",
+			"s6",
+			";\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"comprehensive-bone-joint",
+			"compre",
+			"CONDITIONS WE TREAT:",
+			"a href=\"#\"",
+			"</li>",
+			"<li>",
+			"infographic-main",
+			"<li> Uno </li>",
+			"                    <a href=\"#\"> Uno </a>\n                    <a href=\"#\"> Uno </a>\n<a href=\"#\"> Uno </a>\n                    <a href=\"#\"> Uno </a>\n                    <a href=\"#\"> Uno </a>",
+			"                    <a href=\"#\"> Uno </a>\n                    <a href=\"#\"> Uno </a>\n                    <a href=\"#\"> Uno </a>\n                    <a href=\"#\"> Uno </a>\n                    <a href=\"#\"> Uno </a>"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/partials/directives/cake-gallery.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 222,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								178,
+								178
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/styles/cake.styl",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 186,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								166,
+								166
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/partials/directives/cake-card.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 339,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								151,
+								151
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/styles/main.styl",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 14,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								13,
+								13
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"incomplete_sync": null,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "gulpfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1759,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1057,
+								1057
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1065.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 42.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 178.0
+	},
+	"pinned_build_system": "Packages/Stylus/Stylus.sublime-build",
+	"project": "angular-way.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 625.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Users\\Karen\\Documents\\avicola-esperanza-proyecto.sublime-project"
+			]
+		],
+		"width": 475.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 272.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

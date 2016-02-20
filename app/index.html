@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title></title>
     <!-- inject:css -->
+    <link rel="stylesheet" href=".tmp/styles/main.css">
     <!-- endinject -->
     <!-- bower:css-->
     <link rel="stylesheet" href="bower_components/motion-ui/dist/motion-ui.css" />
@@ -13,11 +14,10 @@
     <!-- endbower -->
   </head>
   <body ng-app="AngularWay">
+
     <ng-include src="'partials/header.html'"></ng-include>
-    <div class="grid-block">
-      <div id="tabs" class="grid-block shrink"></div>
-      <div id="main" class="grid-block"></div>
-    </div>
+    <cake-gallery> </cake-gallery>
+    <ng-include src="'partials/footer.html'"></ng-include>
     <!-- bower:js -->
     <script src="bower_components/angular/angular.js"></script>
     <script src="bower_components/angular-resource/angular-resource.js"></script>
@@ -35,6 +35,10 @@
 
     <!-- inject:js -->
     <script src="scripts/app.js"></script>
+    <script src="scripts/directives/cakeCard.js"></script>
+    <script src="scripts/directives/cakeGallery.js"></script>
+    <script src="scripts/controllers/cakeCard.js"></script>
+    <script src="scripts/controllers/cakeGallery.js"></script>
     <!-- endinject -->
   </body>
 </html>
