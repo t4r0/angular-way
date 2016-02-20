@@ -1,7 +1,6 @@
 {
   "name": "angular-way",
   "description": "This is the angular way",
-  "main": ["foundation-sites/dist/foundation.css"],
   "authors": [
     "Estuardo Diaz <esjoando555@gmail.com>"
   ],
@@ -28,9 +27,32 @@
     "angular-cookies": "^1.5.0",
     "angular-sanitize": "^1.5.0",
     "angular-route": "^1.5.0",
+    "fastclick": "^1.0.6",
+    "jquery": "^2.2.0",
+    "what-input": "^1.2.3",
+    "motion-ui": "^1.2.1",
+    "modernizr": "^3.3.1",
     "normalize-strings": "normalize#^1.0.4",
-    "angular-foundation": "^0.8.0",
     "angular-websocket": "^1.0.14",
-    "foundation-sites": "^6.1.2"
+    "foundation-sites": "^6.1.2",
+    "foundation-apps": "^1.2.0"
+  },
+  "overrides": {
+    "foundation-sites": {
+      "main": [
+        "dist/foundation.min.css",
+        "dist/foundation.min.js"
+      ]
+    },
+    "foundation-apps": {
+      "main": [
+        "dist/css/foundation-apps.min.css",
+        "dist/js/foundation-apps.min.js",
+        "dist/js/foundation-apps-templates.min.js"
+      ]
+    }
+  },
+  "devDependencies": {
+    "motion-ui": "^1.2.1"
   }
 }

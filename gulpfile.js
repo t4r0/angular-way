@@ -1,50 +1,78 @@
-var batch       =   require('batch-stream2');
-var gulp        =   require('gulp');
-var livereload  =   require('gulp-livereload');
-var watch       =   require('gulp-watch');
-var server      =   require('gulp-webserver');
-var wiredep     =   require('gulp-wiredep');
+var connect = require('connect-livereload'),
+    gulp = require('gulp'),
+    autoprefixer = require('gulp-autoprefixer'),
+    concat = require('gulp-concat'),
+    webserver = require('gulp-webserver');
+    inject = require('gulp-inject'),
+    jshint = require('gulp-jshint'),
+    rename = require('gulp-rename'),
+    stylus = require('gulp-stylus'),
+    uglify = require('gulp-uglify'),
+    nib = require('nib'),
+    livereload = require('tiny-lr'),
+    wiredep = require('wiredep').stream;
 
-var appConfig = {
-  app: require('./bower.json').appPath || 'app',
-  dist: 'dist'
+var lr;
+
+var styles = 'app/styles/**/*.styl';
+
+var paths = {
+  tmp : './.tmp/',
+  src : 'app/'
 };
 
-var src = {
-  stylus: ['app/**/*.styl'],
-  css: ['app/**/*.css'],
-  js: ['app/**/**.js'],
-  bower: ['bower.json','.bowerrc']
-};
-
-var dist = {
-  css: '.tmp/styles/'
-};
-
-src.styles = src.stylus.concat(src.css);
-
-gulp.task('serve', function(){
-  gulp.src('./app')
-    .pipe(server({
-      fallback: 'index.html',
-      open: true
-    }));
+gulp.task('connect', function(){
+  var lrConnect = connect({port: 35729});
 });
 
+gulp.task('serve',['stylus','wiredep'], function(){
+  gulp.src('app')
+    .pipe(webserver({
+      livereload: true,
+      directoryListing: false,
+      port: 9000,
+      open: true,
+      fallback: 'index.html'
+    })
+  );
+});
+
+gulp.task('stylus', function(){
+  gulp.src(styles)
+    .pipe(stylus({ use: nib(), compress: true}))
+    .pipe(concat('main.css'))
+    .pipe(gulp.dest('.tmp/styles'));
+});
+
+
 gulp.task('watch', function(){
-  livereload.listen();
+  gulp.watch(styles, ['stylus']);
+  gulp.watch(paths.src + '[scripts|styles|images]/*', ['wiredep'])
 });
 
 gulp.task('wiredep', function(){
-  gulp.src('./app/index.html')
-    .pipe(wiredep({
-      directory: './bower_components'
-    }))
-    .pipe(gulp.dest('app'));
+  var styles = gulp.src(
+    [paths.tmp + '**/*.css'],
+    {read: false}
+  );
+
+  var scripts =  gulp.src([
+    paths.src + 'scripts/**/*.js'
+  ]);
+
+  var wiredepOptions = {
+    directory: './app/bower_components',
+    src: './app/index.html'
+  };
+
+  return gulp.src(paths.src + '**/*.html')
+    .pipe(inject(styles, {relative: true}))
+    .pipe(inject(scripts, {relative: true}))
+    .pipe(wiredep(wiredepOptions))
+    .pipe(gulp.dest(paths.src));
 });
 
 gulp.task('default', [
-    'wiredep',
-    'serve',
-    'watch'
+  'serve',
+  'watch'
 ]);
