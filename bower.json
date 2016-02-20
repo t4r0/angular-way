@@ -34,21 +34,16 @@
     "modernizr": "^3.3.1",
     "normalize-strings": "normalize#^1.0.4",
     "angular-websocket": "^1.0.14",
-    "foundation-sites": "^6.1.2",
-    "foundation-apps": "^1.2.0"
+    "bootstrap": "^3.3.6"
   },
   "overrides": {
-    "foundation-sites": {
-      "main": [
-        "dist/foundation.min.css",
-        "dist/foundation.min.js"
-      ]
-    },
-    "foundation-apps": {
-      "main": [
-        "dist/css/foundation-apps.min.css",
-        "dist/js/foundation-apps.min.js",
-        "dist/js/foundation-apps-templates.min.js"
+    "bootstrap" : {
+      "main":[
+        "dist/css/bootstrap.min.css",
+        "dist/css/bootstrap.min.css.map",
+        "dist/css/bootstrap-theme.min.css",
+        "dist/css/bootstrap-theme.min.css.map",
+        "dist/js/bootstrap.min.js"
       ]
     }
   },
